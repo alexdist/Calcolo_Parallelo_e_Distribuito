@@ -1,0 +1,1 @@
+Implementazione di un algoritmo parallelo (np core) per il calcolo dell’operazione c = a+b con a,b vettori di dimensione N, in ambiente OpenMP
