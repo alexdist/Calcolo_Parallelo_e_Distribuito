@@ -1,0 +1,4 @@
+Implementare un programma parallelo per l’ambiente multicore con np unità processanti che impieghi la libreria OpenMP.
+Il programma deve essere organizzato come segue: il core master deve leggere una matrice di dimensione NxN, 
+quindi i core devono collaborare per ricopiare in parallelo gli elementi della diagonale principale 
+in un vettore di lunghezza N. Infine, i core devono effettuare la somma degli elementi di tale vettore in parallelo.
