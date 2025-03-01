@@ -1,0 +1,3 @@
+Implementare un programma parallelo per l’ambiente multicore con np unità processanti che impieghi la libreria OpenMP.
+Il programma deve essere organizzato come segue: il core master deve generare una matrice di dimensione NxN, 
+ogni core deve estrarre N/np righe e calcolare il prodotto puntuale tra i vettori corrispondenti alle righe estratte.
