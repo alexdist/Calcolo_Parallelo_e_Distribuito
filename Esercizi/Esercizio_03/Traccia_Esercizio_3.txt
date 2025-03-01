@@ -1,1 +1,3 @@
-Implementazione di un algoritmo parallelo (np core) per il calcolo degli elementi di un vettore c, i cui valori sono ottenuti moltiplicando l’identificativo del core per gli elementi di un vettore a di dimensione N, in ambiente OpenMP
+Implementazione di un algoritmo parallelo (np core) per il calcolo degli elementi di un vettore c, 
+i cui valori sono ottenuti moltiplicando l’identificativo del core per gli elementi 
+di un vettore a di dimensione N, in ambiente OpenMP
