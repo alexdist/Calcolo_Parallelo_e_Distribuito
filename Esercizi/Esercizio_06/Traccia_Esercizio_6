@@ -1,0 +1,4 @@
+Implementare un programma parallelo per l’ambiente multicore con np unità processanti che impieghi la libreria OpenMP.
+Il programma deve essere organizzato come segue: il core master deve leggere una matrice A di dimensione NxN ed uno scalare alpha.
+Quindi, i core devono collaborare per calcolare il prodotto tra lo scalare alpha e la matrice A, sfruttando 
+una strategia di parallelizzazione che usi la distribuzione per colonne della matrice A come decomposizione del dominio.
