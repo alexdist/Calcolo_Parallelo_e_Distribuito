@@ -1,0 +1,3 @@
+Implementare un programma parallelo per l’ambiente multicore con nqxnp unità processanti che impieghi la libreria OpenMP. 
+Il programma deve essere organizzato come segue: il core master deve costruire una matrice A, di dimensione MxN, 
+i cui blocchi sono generati casualmente e in parallelo da ogni core.
