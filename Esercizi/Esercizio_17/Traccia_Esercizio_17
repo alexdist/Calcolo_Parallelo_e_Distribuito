@@ -1,0 +1,4 @@
+Implementare un programma parallelo per l’ambiente multicore con np unità processanti che impieghi la libreria OpenMP. 
+Il programma deve essere organizzato come segue: il core master deve leggere quattro valori scalari a0, a1, a2, a3, 
+quindi i core devono collaborare per costruire un vettore di dimensione 4np i cui elementi sono dati dalla 
+somma di tali valori con il proprio identificativo.
