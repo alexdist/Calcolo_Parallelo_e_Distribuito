@@ -1,0 +1,5 @@
+Implementare un programma parallelo per l’ambiente multicore con np unità processanti che impieghi la libreria OpenMP. 
+Il programma deve essere organizzato come segue: il core master deve generare una matrice A di dimensione MxM. 
+Quindi, i core devono collaborare per valutare il minimo valore tra gli elementi di A e successivamente 
+costruire la matrice B i cui elementi sono dati dalla somma di tale valore minimo per gli elementi di 
+posto corrispondente della matrice di partenza.
