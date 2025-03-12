@@ -1,39 +1,35 @@
-Compilazione ed Esecuzione
+# Compilazione ed Esecuzione
 
 Queste istruzioni valgono per tutti i codici presenti nella cartella.
 
-Compilazione
-
+## **Compilazione**
 Per compilare un codice sorgente in C con OpenMP, utilizzare il seguente comando:
-
+```bash
 gcc -fopenmp -o nome-eseguibile nome-codice.c
-
+```
 Dove:
-
-nome-eseguibile è il nome che si vuole dare al file compilato.
-
-nome-codice.c è il file sorgente da compilare.
-
-L'opzione -fopenmp abilita il supporto a OpenMP.
+- `nome-eseguibile` è il nome che si vuole dare al file compilato.
+- `nome-codice.c` è il file sorgente da compilare.
+- L'opzione `-fopenmp` abilita il supporto a OpenMP.
 
 Esempio:
-
+```bash
 gcc -fopenmp -o somma-vettori somma-vettori.c
+```
 
-Esecuzione
-
+## **Esecuzione**
 Una volta compilato, il codice può essere eseguito con:
-
+```bash
 ./nome-eseguibile
-
+```
 Esempio:
-
+```bash
 ./somma-vettori
+```
 
-Requisiti
-
-Compilatore gcc con supporto a OpenMP.
-
-OpenMP installato sul sistema.
+## **Requisiti**
+- Compilatore **gcc** con supporto a OpenMP.
+- OpenMP installato sul sistema.
 
 Queste istruzioni sono valide per tutti i file presenti nella cartella di laboratorio.
+
