@@ -1,4 +1,4 @@
-# Somma di N Numeri con OpenMP
+# Somma di N Numeri
 
 ## Descrizione
 Questo programma utilizza **OpenMP** per calcolare la somma di `N` numeri sfruttando la **prima strategia di collezione delle somme parziali**. Ogni thread calcola una somma parziale di un sottoinsieme dei numeri e la aggiunge alla somma totale `sumtot`.
@@ -9,7 +9,7 @@ Questo programma utilizza **OpenMP** per calcolare la somma di `N` numeri sfrutt
 3. Viene allocato dinamicamente il vettore `a` e vengono letti gli `N` numeri.
 4. La somma viene calcolata in parallelo:
    - Ogni thread calcola una **somma parziale** del proprio sottoinsieme di numeri.
-   - Le somme parziali vengono poi **sommmate globalmente** in `sumtot`.
+   - Le somme parziali vengono poi **sommate globalmente** in `sumtot`.
 5. Il risultato viene stampato a schermo.
 
 ## Esempio di Input/Output
