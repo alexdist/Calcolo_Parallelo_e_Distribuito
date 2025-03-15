@@ -6,23 +6,17 @@ Questo programma utilizza **OpenMP** per calcolare il valore approssimato di **�
 ## Metodo di Calcolo
 L'approssimazione di π è ottenuta attraverso l'integrazione della funzione:
 
-\[
-f(x) = \frac{4}{1 + x^2}
-\]
+f(x) = 4 / (1 + x^2)
 
-nell'intervallo \([0,1]\). Il valore dell'integrale rappresenta un'approssimazione di π.
+nell'intervallo [0,1]. Il valore dell'integrale rappresenta un'approssimazione di π.
 
 L'algoritmo suddivide l'intervallo in **N sottointervalli**, calcola il valore della funzione nel punto medio di ogni intervallo e somma i contributi per ottenere il risultato finale:
 
-\[
-\pi \approx \sum_{i=1}^{N} f(x_i) \cdot dx
-\]
+π ≈ Σ f(x_i) * dx 
 
-dove \(dx\) è la larghezza di ciascun intervallo:
+con dx = 1 / N
 
-\[
-dx = \frac{1}{N}
-\]
+dove dx è la larghezza di ciascun intervallo:
 
 ## Parallelizzazione con OpenMP
 La somma viene calcolata in parallelo utilizzando **OpenMP**, con la direttiva:
