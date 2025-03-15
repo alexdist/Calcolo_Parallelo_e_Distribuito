@@ -1,4 +1,4 @@
-# Somma di N Numeri con OpenMP (2 Strategia di Somma)
+# Somma di N Numeri (2 Strategia di Somma)
 
 ## Descrizione
 Questo programma utilizza **OpenMP** per calcolare la somma di `N` numeri, sfruttando la **seconda strategia di somma**: l'uso della direttiva **`reduction(+:sum)`**. Questa strategia garantisce una gestione più efficiente della somma totale, evitando problemi di race condition senza bisogno di variabili condivise per accumulare le somme parziali.
