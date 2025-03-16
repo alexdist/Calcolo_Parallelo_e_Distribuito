@@ -1,4 +1,4 @@
-# Prodotto Scalare di Due Vettori con OpenMP
+# Prodotto Scalare di Due Vettori
 
 ## Descrizione
 Questo programma utilizza **OpenMP** per calcolare il **prodotto scalare** di due vettori di dimensione `N`. L'operazione viene parallelizzata utilizzando la direttiva `#pragma omp parallel for` con la strategia di **schedulazione dinamica** per distribuire il carico tra i thread in modo efficiente.
