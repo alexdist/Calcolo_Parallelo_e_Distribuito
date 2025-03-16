@@ -43,10 +43,10 @@ Elemento 2-esimo: 3
 Elemento 3-esimo: 4
 
 Inserire gli elementi nel vettore B
-Elemento 0-esimo: 5
-Elemento 1-esimo: 6
-Elemento 2-esimo: 7
-Elemento 3-esimo: 8
+Elemento 0-esimo: 1
+Elemento 1-esimo: 2
+Elemento 2-esimo: 3
+Elemento 3-esimo: 4
 
 Vettore A:
 [0] = 1
@@ -54,10 +54,10 @@ Vettore A:
 [2] = 3
 [3] = 4
 Vettore B:
-[0] = 5
-[1] = 6
-[2] = 7
-[3] = 8
+[0] = 1
+[1] = 2
+[2] = 3
+[3] = 4
 Risultato: 30
 Tempo: 0.000001
 ```
