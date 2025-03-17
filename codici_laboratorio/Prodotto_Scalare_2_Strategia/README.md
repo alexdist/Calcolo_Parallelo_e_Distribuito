@@ -6,7 +6,7 @@ Questo programma utilizza **OpenMP** per calcolare il **prodotto scalare** di du
 ## Metodo di Calcolo
 Il prodotto scalare tra due vettori `A` e `B` è definito come:
 
-![Formula del Prodotto Scalare](images/prodotto_scalare_formula.png)
+![Formula del Prodotto Scalare](prodotto_scalare_formula.png)
 
 Dove `S` è il risultato della somma degli elementi **moltiplicati componente per componente**.
 
