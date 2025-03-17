@@ -1,4 +1,4 @@
-# Prodotto Scalare di Due Vettori con OpenMP (Seconda Strategia di Collezione dei Risultati)
+# Prodotto Scalare di Due Vettori (Seconda Strategia di Collezione dei Risultati)
 
 ## Descrizione
 Questo programma utilizza **OpenMP** per calcolare il **prodotto scalare** di due vettori di dimensione `N`, implementando la **seconda strategia di collezione dei risultati**. L'operazione viene parallelizzata utilizzando la direttiva `#pragma omp parallel for` con l'uso della riduzione (`reduction(+:sum)`) per gestire correttamente l'aggiornamento della somma totale.
