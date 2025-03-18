@@ -46,7 +46,10 @@ int main(void)
         }
 
         printf("sono %d, di %d: numeri %d, r=%d, la mia sum=%f\n", id,t,nloc,r,sum);
+        #pragma omp atomic
+        {
         sumtot+=sum;
+        }
     }
     printf("somma totale: %f\n", sumtot);
 
