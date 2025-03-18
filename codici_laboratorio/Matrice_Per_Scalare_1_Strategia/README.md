@@ -6,9 +6,7 @@ Questo programma utilizza **OpenMP** per eseguire il **prodotto di una matrice p
 ## Metodo di Calcolo
 Il prodotto di una matrice `A` di dimensione `N × M` per uno scalare `α` si calcola come:
 
-\[
-A'_{i,j} = A_{i,j} \times \alpha \quad \forall \quad i \in [0,N-1], \quad j \in [0,M-1]
-\]
+![Formula del Prodotto Matrice-Scalare](prodotto_matrice_scalare.png)
 
 Dove `A'` è la matrice risultante.
 
