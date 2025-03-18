@@ -1,4 +1,4 @@
-# Prodotto di una Matrice per uno Scalare con OpenMP (Divisione per Righe)
+# Prodotto di una Matrice per uno Scalare (Divisione per Righe)
 
 ## Descrizione
 Questo programma utilizza **OpenMP** per eseguire il **prodotto di una matrice per uno scalare** sfruttando la **prima strategia di parallelizzazione**, ovvero la **divisione per righe**. Ogni thread elabora una o più righe della matrice, moltiplicando ciascun elemento per un valore scalare `alpha`.
