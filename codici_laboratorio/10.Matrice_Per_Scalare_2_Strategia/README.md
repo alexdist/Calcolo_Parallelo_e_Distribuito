@@ -1,4 +1,4 @@
-# Prodotto di una Matrice per uno Scalare con OpenMP (Divisione per Colonne)
+# Prodotto di una Matrice per uno Scalare (Divisione per Colonne)
 
 ## Descrizione
 Questo programma utilizza **OpenMP** per eseguire il **prodotto di una matrice per uno scalare** sfruttando la **seconda strategia di parallelizzazione**, ovvero la **divisione per colonne**. Ogni thread elabora una o più colonne della matrice, moltiplicando ciascun elemento per un valore scalare `alpha`.
