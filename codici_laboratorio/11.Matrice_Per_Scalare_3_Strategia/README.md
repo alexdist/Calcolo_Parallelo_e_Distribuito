@@ -1,4 +1,4 @@
-# Prodotto di una Matrice per uno Scalare con OpenMP (Divisione in Blocchi)
+# Prodotto di una Matrice per uno Scalare (Divisione in Blocchi nqxnp)
 
 ## Descrizione
 Questo programma utilizza **OpenMP** per eseguire il **prodotto di una matrice per uno scalare** sfruttando la **terza strategia di parallelizzazione**, ovvero la **divisione della matrice in blocchi** (`nq × np`). Ogni thread elabora un blocco della matrice, suddividendo il lavoro in modo più bilanciato rispetto alle strategie basate su righe o colonne.
