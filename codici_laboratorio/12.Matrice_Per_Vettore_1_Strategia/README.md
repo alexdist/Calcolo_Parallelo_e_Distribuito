@@ -68,7 +68,7 @@ Matrice:
 ...
 
 Prodotto MatricexVettore v:
-3
+7
 ...
 ```
 
