@@ -10,7 +10,7 @@ Dati:
 
 Il prodotto matrice-vettore produce un vettore `v` di dimensione `N` tale che:
 
-![Formula prodotto matrice vettore](prodotto_matrice_vettore_formula.png)
+![Formula prodotto matrice vettore](prodotto_matrice_vettore.png)
 
 ## Strategia di Parallelizzazione: Divisione per Colonne
 La matrice viene suddivisa tra i thread **per colonne**:
